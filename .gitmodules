@@ -1,0 +1,7 @@
+[submodule "themes/hugo-nederburg-theme"]
+	path = themes/hugo-nederburg-theme
+	url = https://github.com/appernetic/hugo-nederburg-theme.git
+[submodule "public"]
+	path = public
+	url = https://github.com/uncleshushu/uncleshushu.github.io.git
+	branch = master
