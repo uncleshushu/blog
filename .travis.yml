@@ -14,5 +14,6 @@ deploy:
   name: $GITHUB_USERNAME
   keep-history: true
   local_dir: public
+  repo: uncleshushu.github.io
   on:
     branch: master
