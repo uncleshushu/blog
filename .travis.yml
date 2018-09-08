@@ -15,5 +15,6 @@ deploy:
   keep-history: true
   local_dir: public
   repo: uncleshushu.github.io
+  target-branch: master
   on:
     branch: master
