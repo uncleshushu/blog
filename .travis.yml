@@ -1,6 +1,6 @@
 install:
     # install latest release version of hugo
-    - curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep -E '"browser_download_url":[[:space:]]*".*hugo_[0-9]+\.[0-9]+_Linux-64bit.tar.gz"' | cut -d ':' -f 2- | xargs wget
+    - while true; do curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep -E '"browser_download_url":[[:space:]]*".*hugo_[0-9]+\.[0-9]+_Linux-64bit.tar.gz"' | cut -d ':' -f 2- | xargs wget; [ $? -ne 0 ] || break; done
     - tar -xzf hugo* 
 
 script:
