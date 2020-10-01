@@ -5,7 +5,7 @@ draft: false
 isCJKLanguage: true
 image: ""
 showonlyimage: false
-categories: ["Ravings"]
+categories: ["Nonsenses"]
 keywords: []
 tags: []
 weight: 1
